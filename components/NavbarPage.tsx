@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Button } from '@nextui-org/react'
+
 import { useState } from 'react'
 
 const NavbarPage = () => {
@@ -35,9 +35,9 @@ const NavbarPage = () => {
                 <div className='flex flex-col absolute right-0 items-end
                 bg-gray-100 px-5 pb-6 text center  
                 gap-6 '>
-                    <Button onClick={toggleVisibility} className=''>
+                    <button onClick={toggleVisibility} className='h-3'>
                         <FontAwesomeIcon icon={faBars} className=' text-gray-400' />
-                    </Button>
+                    </button>
                     {isVisible && <>
                         <div className='text-sm font-bold '>HOME</div>
                         <div className='text-sm  font-semibold text-gray-400'>DISCOVERY</div>

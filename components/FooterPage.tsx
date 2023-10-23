@@ -1,9 +1,11 @@
-// import { Input } from '@nextui-org/react'
+
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane, faEarthAsia } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { Input } from '@nextui-org/react'
+
+
+
 
 const FooterPage = () => {
     return (
@@ -34,7 +36,7 @@ const FooterPage = () => {
                 <div className="">
                     <div className='relative w-full flex p-2'>
                         {/* <Input placeholder='Email' className=' w-full p-5 border rounded-sm outline-none bg-transparent' /> */}
-                        <Input
+                        <input
                             placeholder="Email"
                             style={{ background: "transparent" }}
                             className="w-full p-2 border border-gray-200 outline-none rounded-md"
